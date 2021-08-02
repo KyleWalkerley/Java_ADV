@@ -1,2 +1,7 @@
 Employee\EmployeeTest.class
+com\example\domain\Manager.class
+com\example\domain\Director.class
 com\example\domain\Employee.class
+com\example\domain\Admin.class
+Excersise3\Employee\Employees.class
+com\example\domain\Engineer.class
