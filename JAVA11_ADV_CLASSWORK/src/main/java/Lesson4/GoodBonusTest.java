@@ -27,5 +27,6 @@ public class GoodBonusTest {
     System.out.println(d.getDetails());
     System.out.println("Bonus: " + bonus.calcBonus(d));
 
+        System.out.println("ToString method: " + e.toString());
   }
 }

@@ -25,6 +25,11 @@ public class Employee {
     public String getDetails() {
       return "ID: " + empId + " Name: " + name;
     }
+    
+    @Override
+    public String toString(){
+        return "ID: " + empId + " Name: " + name;
+    }
 
     public String getAllDetails() {
         return "ID: " + empId + " Name: " + name 
