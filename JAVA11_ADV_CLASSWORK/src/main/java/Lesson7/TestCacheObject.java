@@ -1,5 +1,5 @@
 
-package Lessons7;
+package Lesson7;
 
 public class TestCacheObject {
     

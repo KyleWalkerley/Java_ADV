@@ -1,19 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Lessons7;
+package Lesson7;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author kyle_
- */
-public class GenericArrayList {
-    public static void main(String args[]){
+public class GenericArrayList {  
+  public static void main(String args[]){
     
     List<Integer> partList = new ArrayList<>(3);
     

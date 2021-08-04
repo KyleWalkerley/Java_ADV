@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package Lessons7;
+package Lesson7;
 
 import java.util.ArrayList;
  

@@ -1,4 +1,4 @@
-package Lessons7;
+package Lesson7;
 
 public class CacheShirt {
     private Shirt shirt;
