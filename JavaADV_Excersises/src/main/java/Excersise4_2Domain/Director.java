@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Excersise4_1_com.example.domain;
+package Excersise4_2Domain;
 
 /**
  *
@@ -20,9 +20,9 @@ public class Director extends Manager{
     public double getBudget() {
         return budget;
     }
-    
+
     @Override
-    public String toString(){
+    public String toString() {
         return super.toString() + "\nBudget:          " + getBudget();
     }
 }

@@ -33,6 +33,28 @@ public class AbstractBankingMain {
         customer.addAccount(sack);
         sack.deposit(500);
 
-       
+        bank.addCustomer("Jane", "Simms");
+        customer = bank.getCustomer(2);
+        customer.addAccount(new CheckAccount(200.00, 400.00));
+
+        bank.addCustomer("Owen", "Bryant");
+        customer = bank.getCustomer(3);
+        customer.addAccount(new CheckAccount(200.00));
+
+        bank.addCustomer("Tim", "Soley");
+        customer = bank.getCustomer(4);
+        customer.addAccount(new CheckAccount(200.00));
+
+        bank.addCustomer("Maria", "Soley");
+        customer = bank.getCustomer(5);
+        CheckAccount chkAcct = new CheckAccount(100.00);
+
+        customer.addAccount(chkAcct);
+
+        if (chkAcct.withdraw(900.00)) {
+            customer.addAccount(chkAcct);
+            System.out.print(" withdraw is successful" + chkAcct.getBalance());
         }
+
+    }
 }

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Excersise4_1_com.example.domain;
+package Excersise4_2Domain;
 
 /**
  *
  * @author kyle_
  */
-public class Manager extends Employee{
+public class Manager extends Employee {
     private String deptName;
 
     public Manager(int empId, String name, String ssn, double salary, String deptName) {
@@ -20,9 +20,9 @@ public class Manager extends Employee{
     public String getDeptName() {
         return deptName;
     }
-    
+
     @Override
-    public String toString(){
+    public String toString() {
         return super.toString() + "\nDepartment:      " + getDeptName();
     }
 }

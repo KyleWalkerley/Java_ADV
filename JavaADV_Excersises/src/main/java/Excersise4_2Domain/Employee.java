@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Excersise4_1_com.example.domain;
+package Excersise4_2Domain;
 
 import java.text.NumberFormat;
 
@@ -12,6 +12,7 @@ import java.text.NumberFormat;
  * @author kyle_
  */
 public class Employee {
+    
     private int empId;
     private String name;
     private String ssn;
@@ -41,33 +42,19 @@ public class Employee {
     }
 
     public void setName(String name) {
-        // Make sure the name value is not null or empty
         if (name != null && !name.equals("")) {
             this.name = name;
         }
     }
 
     public void raiseSalary(double increase) {
-        // Make sure the increase is not less than 0
         if (increase > 0) {
             salary += increase;
 
         }
     }
 
-   
-    public  void printEmployee() {
-
-        System.out.println(); // Print a blank line as a separator
-        // Print out the data in this Employee object
-        System.out.println("Employee id:         " + getEmpId());
-        System.out.println("Employee name:       " + getName());
-        System.out.println("Employee SSN:  " + getSsn());
-        System.out.println("Employee salary:     " + NumberFormat.getCurrencyInstance().format((double) getSalary()));
-    }
-    
-    @Override
-    public String toString(){
+    public String toString() {
         return "Employee ID:     " + getEmpId() + "\n" +
                "Employee Name:   " + getName() + "\n" +
                "Employee SSN:    " + getSsn() + "\n" +

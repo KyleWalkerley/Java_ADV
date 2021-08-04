@@ -10,7 +10,7 @@ package Excersise5_1;
  * @author kyle_
  */
 public class Customer {
-    private String firstName;
+   private String firstName;
     private String lastName;
     private Account[] accounts;
     private int numberOfAccounts;
