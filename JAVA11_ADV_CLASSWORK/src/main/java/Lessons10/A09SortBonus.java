@@ -11,7 +11,7 @@ public class A09SortBonus {
   public static void main(String[] args) {
     List<Employee> eList = Employee.createShortList();
         
-    System.out.println("\n== CO Bonus Details ==");
+    System.out.println("\n== CO Bonus Detail ==");
         
     eList.stream()
       .filter(e -> e.getRole().equals(Role.EXECUTIVE))
