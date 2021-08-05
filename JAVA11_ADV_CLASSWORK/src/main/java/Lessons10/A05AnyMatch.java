@@ -15,8 +15,7 @@ public class A05AnyMatch {
         
       System.out.println("\n== First CO Bonus ==");
 
-      if (eList.stream().anyMatch(
-          e -> e.getState().equals("CO"))){
+      if (eList.stream().anyMatch(e -> e.getState().equals("CO"))){
             
         Optional<Employee> result = eList.stream()
           .peek(e -> System.out.println("Stream"))
