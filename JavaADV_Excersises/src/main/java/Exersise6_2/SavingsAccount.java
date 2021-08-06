@@ -3,17 +3,17 @@
 package Exersise6_2;
 
 
-public class SavingsAccount extends Account{
-     Double rateofinterest=0.06;
+public class SavingsAccount extends Account implements AccountOperations{
+    Double rateofinterest=0.06;
 
     public SavingsAccount(double balance) {
         super(balance);
     }
 
-    
-    
- 
-    
+    @Override
+    public double getBalance(){
+      return balance;
+    }    
 
     @Override
     public boolean withdraw(double amount) {
@@ -24,18 +24,20 @@ public class SavingsAccount extends Account{
             return false;
         }
     }
-
     
      @Override
      public void  deposit(double amount) {
        balance += amount;
        balance +=balance * rateofinterest;
-       
-        }
+     }
     
     @Override
     public String getDescription() {
         return "Savings Account";
     }
     
+    @Override
+    public String toString() {
+        return this.getDescription() + " balance is " + balance;
+    } 
 }

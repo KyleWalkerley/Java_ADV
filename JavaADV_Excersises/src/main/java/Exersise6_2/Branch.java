@@ -20,5 +20,4 @@ public enum Branch {
           return serviceLevel;
         }
 
-    
 }

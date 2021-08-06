@@ -2,9 +2,10 @@ package Exersise6_2;
 
 public class Customer {
 
+   
     private String firstName;
     private String lastName;
-    private Account[] accounts;
+    private AccountOperations[] accounts;
     private int numberOfAccounts;
     private Branch branch;
 
@@ -12,7 +13,7 @@ public class Customer {
         firstName = f;
         lastName = l;
         // initialize accounts array
-        accounts = new Account[10];
+        accounts = new AccountOperations[10];
         numberOfAccounts = 0;
         branch=b;
     }
@@ -25,7 +26,7 @@ public class Customer {
         return lastName;
     }
 
-    public void addAccount(Account acct) {
+    public void addAccount(AccountOperations acct) {
         int i = numberOfAccounts++;
         accounts[i] = acct;
     }
@@ -34,7 +35,7 @@ public class Customer {
         return numberOfAccounts;
     }
 
-    public Account getAccount(int accountIndex) {
+    public AccountOperations getAccount(int accountIndex) {
         return accounts[accountIndex];
     }
     
@@ -45,5 +46,4 @@ public class Customer {
     public void setBranch(Branch branch) {
         this.branch = branch;
     }
-
 }

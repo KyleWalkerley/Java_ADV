@@ -1,6 +1,6 @@
 package Exersise6_2;
 
-public class Bank {
+public class Bank implements BankOperations{
 
     private Customer[] customers;
     private int numberOfCustomers;
