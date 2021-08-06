@@ -9,6 +9,20 @@ package Excersise6_1;
  *
  * @author kyle_
  */
-public class Fish {
+public class Fish extends Animal implements Pet{
+    private String name;
+    
+    public Fish(){
+        super(0);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
     
 }

@@ -9,6 +9,20 @@ package Excersise6_1;
  *
  * @author kyle_
  */
-public class Cat {
+public class Cat extends Animal implements Pet{
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public Cat(String name){
+        super();
+        this.name = name;
+    }
     
 }
