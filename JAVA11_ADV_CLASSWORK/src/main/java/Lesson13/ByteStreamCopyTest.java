@@ -1,4 +1,4 @@
-package com.example;
+package Lesson13;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -13,7 +13,6 @@ public class ByteStreamCopyTest {
             System.exit(-1);
         }
                 byte[] b = new byte[128]; 
-         // Example use of InputStream methods
          try (FileInputStream fis = new FileInputStream (args[0]);
               FileOutputStream fos = new FileOutputStream (args[1])) {
              System.out.println ("Bytes available: " + fis.available());
