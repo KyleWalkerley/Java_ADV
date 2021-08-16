@@ -19,10 +19,10 @@ public class SimpleJDBCTest {
             ResultSet rs = stmt.executeQuery(query)){
             while (rs.next()) {
                 int empID = rs.getInt("ID");
-                String first = rs.getString("FIRSTNAME");
-                String last = rs.getString("LASTNAME");
-                Date birthDate = rs.getDate("BIRTHDATE");
-                double salary = rs.getDouble("SALARY");
+                String first = rs.getString("Firstname");
+                String last = rs.getString("Lastname");
+                Date birthDate = rs.getDate("Birthday");
+                double salary = rs.getDouble("Salary");
                 System.out.println("Employee ID:   " + empID + "\n"
                         + "Employee Name: " + first + " " + last + "\n"
                         + "Birth Date:    " + birthDate + "\n"

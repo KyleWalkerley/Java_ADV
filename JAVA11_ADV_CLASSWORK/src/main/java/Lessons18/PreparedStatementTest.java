@@ -20,7 +20,7 @@ public class PreparedStatementTest {
         double searchValue;
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         try (Connection con = DriverManager.getConnection(url, username, password)) {
-            PreparedStatement pStmt = con.prepareStatement("SELECT * FROM Employee WHERE Salary > ?");
+            PreparedStatement pStmt = con.prepareStatement("SELECT * FROM EMP WHERE Salary > ?");
             // Loop 
             while (true) {
                 System.out.print("Enter salary to search for or Q to quit: ");
