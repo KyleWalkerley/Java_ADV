@@ -10,19 +10,19 @@ import java.util.Date;
 public class SimpleJDBCTest {
 
     public static void main(String[] args) {
-        String url = "jdbc:postgresql://localhost:5432/postgresql";
-        String username = "posgre";
+        String url = "jdbc:postgresql://localhost:5432/postgres";
+        String username = "postgres";
         String password = "Stupid@1";
-        String query = "SELECT * FROM employeesql";
+        String query = "SELECT * FROM Employee";
         try (Connection con = DriverManager.getConnection(url, username, password);
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(query)){
             while (rs.next()) {
                 int empID = rs.getInt("ID");
-                String first = rs.getString("Firstname");
-                String last = rs.getString("Lastname");
-                Date birthDate = rs.getDate("Birthday");
-                double salary = rs.getDouble("Salary");
+                String first = rs.getString("FIRSTNAME");
+                String last = rs.getString("LASTNAME");
+                Date birthDate = rs.getDate("BIRTHDATE");
+                double salary = rs.getDouble("SALARY");
                 System.out.println("Employee ID:   " + empID + "\n"
                         + "Employee Name: " + first + " " + last + "\n"
                         + "Birth Date:    " + birthDate + "\n"
