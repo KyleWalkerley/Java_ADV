@@ -12,15 +12,16 @@ import com.example.domain.Employee;
  * @author kyle_
  */
 public class EmployeeTest {
-//    public static void main(String[] args) {
-//        Employee emp = new Employee ();
-//        emp.setEmpId(101);
-//        emp.setName("Kyle Walkerley");
-//        emp.setSsn ("021-55-4201");
-//        emp.setSalary(185_000.00);
+    public static void main(String[] args) {
+        Employee emp = new Employee ();
+        emp.setEmpId(101);
+        emp.setName("Kyle Walkerley");
+        emp.setSsn ("021-55-4201");
+       emp.setSalary(185_000.00);
+       emp.printEmployee();
 //        System.out.println ("Employee id:         " + emp.getEmpId());
-//        System.out.println ("Employee name:       " + emp.getName());
-//        System.out.println ("Employee Soc Sec #:  " + emp.getSsn());
-//        System.out.println ("Employee salary:     " + emp.getSalary());
-//    }
+//       System.out.println ("Employee name:       " + emp.getName());
+//       System.out.println ("Employee Soc Sec #:  " + emp.getSsn());
+//       System.out.println ("Employee salary:     " + emp.getSalary());
+   }
 }

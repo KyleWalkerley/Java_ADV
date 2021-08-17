@@ -24,6 +24,9 @@ public class Employee {
         this.salary = salary;
     }
 
+    public Employee() {
+    }
+
     public int getEmpId() {
         return empId;
     }
@@ -53,6 +56,18 @@ public class Employee {
             salary += increase;
 
         }
+    }
+
+    public void setEmpId(int empId) {
+        this.empId = empId;
+    }
+
+    public void setSsn(String ssn) {
+        this.ssn = ssn;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public  void printEmployee() {

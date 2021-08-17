@@ -16,7 +16,6 @@ import Excersise4_1_com.example.domain.Manager;
 public class EmployeeTest {
     public static void main(String[] args) {
 
-        // Create the classes as per the practice
         Engineer eng = new Engineer(101, "Jane Smith", "012-34-5678", 120_345.27);
 
         Manager mgr = new Manager(207, "Barbara Johnson", "054-12-2367", 109_501.36, "US Marketing");

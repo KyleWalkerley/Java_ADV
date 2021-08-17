@@ -41,14 +41,12 @@ public class Employee {
     }
 
     public void setName(String name) {
-        // Make sure the name value is not null or empty
         if (name != null && !name.equals("")) {
             this.name = name;
         }
     }
 
     public void raiseSalary(double increase) {
-        // Make sure the increase is not less than 0
         if (increase > 0) {
             salary += increase;
 
@@ -58,8 +56,7 @@ public class Employee {
    
     public  void printEmployee() {
 
-        System.out.println(); // Print a blank line as a separator
-        // Print out the data in this Employee object
+        System.out.println();
         System.out.println("Employee id:         " + getEmpId());
         System.out.println("Employee name:       " + getName());
         System.out.println("Employee SSN:  " + getSsn());
