@@ -14,7 +14,7 @@ public class IntegerStack {
     public Integer pop() {
       if(data.isEmpty())
       {
-        System.out.print("Stack is empty");
+        System.out.print("Nothing in Stack");
 
     }
       return data.removeFirst();
