@@ -1,4 +1,4 @@
-package Exersise8_1;
+package com.example.lambda;
 
 /**
  * @author MikeW

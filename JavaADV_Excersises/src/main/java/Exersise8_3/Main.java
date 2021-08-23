@@ -1,6 +1,4 @@
-package Exersise8_3;
-
-import Exersise8_1.RoboMailTest01;
+package com.example.lambda;
 
 /**
  *

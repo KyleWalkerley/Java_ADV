@@ -1,8 +1,5 @@
-package Exersise8_3;
+package com.example.lambda;
 
-import Exersise8_1.Gender;
-import Exersise8_1.Employee;
-import Exersise8_1.Role;
 import java.util.ArrayList;
 import java.util.List;
 

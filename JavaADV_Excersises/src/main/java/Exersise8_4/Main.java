@@ -1,4 +1,4 @@
-package Exersise8_4;
+package com.example.lambda;
 
 /**
  *

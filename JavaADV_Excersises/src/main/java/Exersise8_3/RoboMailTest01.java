@@ -1,7 +1,5 @@
-package Exersise8_3;
+package com.example.lambda;
 
-import Exersise8_2.Employee;
-import Exersise8_2.RoboMail01;
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -18,8 +16,9 @@ public class RoboMailTest01 {
         
     System.out.println("\n==== RoboMail 01");    
     System.out.println("\n=== All Sales 50+");
-    
-    // Print sales employees 50+
-
+    pl.stream()
+        .filter(p -> p.getAge() >= 50)
+        .filter(p -> p.getDept().equals("Sales"))
+        .forEach(p -> robo.roboMail(p));
   }
 }

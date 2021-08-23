@@ -1,6 +1,5 @@
-package Exersise8_4;
+package com.example.lambda;
 
-import Exersise8_1.Employee;
 import java.util.List;
 import java.util.function.Predicate;
 

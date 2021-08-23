@@ -1,4 +1,4 @@
-package Exersise8_1;
+package com.example.lambda;
 
 import java.util.ArrayList;
 import java.util.List;

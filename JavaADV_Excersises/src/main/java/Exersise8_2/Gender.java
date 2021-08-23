@@ -1,6 +1,4 @@
-package Exersise8_2;
-
-import Exersise8_1.Gender;
+package com.example.lambda;
 
 /**
  * @author MikeW
