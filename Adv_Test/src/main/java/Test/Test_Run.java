@@ -35,7 +35,7 @@ public class Test_Run {
 //    System.out.print(a_b);
 //    } 
     
-//   public static void main(String[] args) {
+   public static void main(String[] args) {
 //    String s1 = "Java";
 //    String s2 = "Java";
 //    StringBuilder sb1 = new StringBuilder();
@@ -45,5 +45,5 @@ public class Test_Run {
 //    System.out.println(sb1.toString() == s1);
 //    System.out.println(sb1.toString().equals(s1));
 //   }
-    
+   }
 }
