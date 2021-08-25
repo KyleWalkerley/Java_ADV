@@ -9,7 +9,8 @@ package Test;
  *
  * @author kyle_
  */
-public class Test_Run {
+public class Deer {
+
 //   public boolean valid = "false";
 //   public String s = "A new string";
 //   public int i = 40_000.00;
@@ -35,7 +36,7 @@ public class Test_Run {
 //    System.out.print(a_b);
 //    } 
     
-   public static void main(String[] args) {
+//   public static void main(String[] args) {
 //    String s1 = "Java";
 //    String s2 = "Java";
 //    StringBuilder sb1 = new StringBuilder();
@@ -45,5 +46,18 @@ public class Test_Run {
 //    System.out.println(sb1.toString() == s1);
 //    System.out.println(sb1.toString().equals(s1));
 //   }
-   }
+
+    
+    public Deer() { System.out.print("Deer"); }
+    public Deer(int age) { System.out.print("DeerAge"); }
+    private boolean hasHorns() { return false; }
+    public static void main(String[] args) {
+            Reindeer deer = new Reindeer(5);
+            System.out.println(","+deer.hasHorns());
+            }
+    }
+    class Reindeer extends Deer {
+    public Reindeer(int age) { System.out.print("Reindeer"); }
+    public boolean hasHorns() { return true; }
 }
+   
