@@ -1,7 +1,7 @@
 package Exersise10_4;
 
 
-import Exersise10_3.BuyerClass;
+//import Exersise10_3.BuyerClass;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,8 +1,8 @@
 package Exersise10_5;
 
 import Exersise10_4.Buyer;
-import Exersise10_3.State;
-import Exersise10_3.TaxRate;
+//import Exersise10_3.State;
+//import Exersise10_3.TaxRate;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
